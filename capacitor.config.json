@@ -1,0 +1,8 @@
+{
+  "appId": "appcreator.forapps.space",
+  "appName": "FastAppCreator",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
