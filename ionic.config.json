@@ -1,7 +1,8 @@
 {
   "name": "Chapp",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

@@ -2,5 +2,11 @@
     "HOME": {
       "TITLE": "Bonjour Angular avec ngx-translate !",
       "SELECT": "Changer la langue"
+    },
+    "TABS": {
+        "PROJECTS": "Projectes",
+        "PROFILE": "Profile",
+        "PROJECT_DIALOG": "Project Creation Dialog"
+
     }
   }

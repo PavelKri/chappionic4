@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FastAppCreator</string>
+    <string name="title_activity_main">FastAppCreator</string>
+    <string name="package_name">appcreator.forapps.space</string>
+    <string name="custom_url_scheme">appcreator.forapps.space</string>
+</resources>

@@ -1,0 +1,15 @@
+{
+    "projects": [
+        { "name": "John Doe", "avatar": "https://ui-avatars.com/api/?name=John+Doe" , "description": "See you later", "created": "09:00 AM" 
+          },
+          {
+           "name": "Dave", "avatar": "https://ui-avatars.com/api/?name=Dave" ,"description": "Im comming", "created": "13:40 PM" 
+          },
+          {
+            "name": "Foo", "avatar": "https://ui-avatars.com/api/?name=Foo","description": "Here is raining", "created": "14:00 PM" 
+          },
+          { 
+            "name": "Bar", "avatar": "https://ui-avatars.com/api/?name=Bar" ,"description": "idk", "created": "14:00 PM" 
+          }
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "HOME": {
+      "TITLE": "Hello Angular with ngx-translate!",
+      "SELECT": "Change language"
+    },
+    "TABS": {
+        "PROJECTS": "Проекты",
+        "PROFILE": "Профиль",
+        "PROJECT_DIALOG": "Диалог создания проектов"
+
+    }
+  }

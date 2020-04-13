@@ -13,6 +13,11 @@ import { AppComponent } from './app.component';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
+import { IonicStorageModule } from '@ionic/storage';
+
+
+import { ProjectService } from './api/project.service';
+
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -30,12 +35,14 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
         deps: [HttpClient]
       }
     }),
-    HttpClientModule
+    HttpClientModule,
+    IonicStorageModule.forRoot()
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    ProjectService
   ],
   bootstrap: [AppComponent]
 })
